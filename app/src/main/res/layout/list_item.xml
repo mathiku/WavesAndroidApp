@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        tools:text="deviceTextView"
+        android:id="@+id/deviceTextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <TextView
+
+        tools:text="messageTextView"
+        android:id="@+id/messageTextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+
+        tools:text="dateTextView"
+        android:id="@+id/daTextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+</LinearLayout>
